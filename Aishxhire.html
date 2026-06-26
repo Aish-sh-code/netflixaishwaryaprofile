@@ -1,1 +1,67 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Aishwarya's Portfolio</title>\n    <link rel="stylesheet" href="styles.css">\n</head>\n<body>\n    <nav>\n        <ul>\n            <li><a href="#hero">Home</a></li>\n            <li><a href="#about">About</a></li>\n            <li><a href="#projects">Projects</a></li>\n            <li><a href="#skills">Skills</a></li>\n            <li><a href="#contact">Contact</a></li>\n        </ul>\n    </nav>\n    <section id="hero">\n        <h1>Welcome to My Portfolio</h1>\n        <p>I am an aspiring developer and this is my showcase.</p>\n    </section>\n    <section id="about">\n        <h2>About Me</h2>\n        <p>I am passionate about technology and proficient in various programming languages.</p>\n    </section>\n    <section id="projects">\n        <h2>My Projects</h2>\n        <p>Here are some of the projects I have worked on...</p>\n    </section>\n    <section id="skills">\n        <h2>Skills</h2>\n        <p>My skill set includes HTML, CSS, JavaScript, and more.</p>\n    </section>\n    <section id="contact">\n        <h2>Contact Me</h2>\n        <p>Email: example@example.com</p>\n    </section>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Welcome to Aishwarya's Portfolio</h1>
+            <p>Discover my projects and skills!</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate developer with skills in various technologies...</p>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>Description of the project...</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>Description of the project...</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Aishwarya's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
